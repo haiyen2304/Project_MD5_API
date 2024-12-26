@@ -1,0 +1,39 @@
+cloudinary:
+  api-key: 138733958262246
+  api_secret: p1jLw8io8wwFvb5aQozcCV2PYww
+  cloud-name: dakvmthdt
+expired: 8640000000
+secret_key: haiyen
+spring:
+  application:
+    name: ProjectMD05
+  datasource:
+    password: 123456
+    url: jdbc:mysql://localhost:3306/projectMD5?createDatabaseIfNotExist=true
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  mail:
+    host: smtp.gmail.com
+    password: swytfshsqqjbdlfs
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          debug: true
+          ssl:
+            trust: smtp.gmail.com
+          starttls:
+            enable: true
+            required: true
+    protocol: smtp
+    username: rosasuong.tech@gmail.com
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
+  jooq:
+    sql-dialect: org.hibernate.dialect.MySQL8Dialect
